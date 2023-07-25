@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voice-controlled Todo App</title>
+  <!-- Link to Tailwind CSS -->
+  <link href="tailwind.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold mb-4">Voice-controlled Todo App</h1>
+    <!-- Todo List -->
+    <div id="todoList" class="mb-8">
+      <!-- Todo items will be dynamically added here -->
+    </div>
+    <!-- Voice Input -->
+    <div class="flex mb-4">
+      <input id="voiceInput" class="flex-1 rounded-l-lg p-4" type="text" placeholder="Start speaking...">
+      <button id="voiceButton" class="bg-blue-500 text-white rounded-r-lg px-4 py-2">Speak</button>
+    </div>
+  </div>
+
+  <!-- Script for Voice Recognition and Todo App -->
+  <script src="app.js"></script>
+</body>
+
+</html>
